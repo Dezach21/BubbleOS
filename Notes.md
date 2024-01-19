@@ -6,3 +6,8 @@
 3) BIOS initializes routines, and locates a bootable device.
 4) The control is passed to the <ins>bootloader</ins> of the bootable device.
 5) The bootloader finds the <ins>kernel image</ins>, and loads it into memory.
+
+### Links
+* [Bootloader](https://wiki.osdev.org/Rolling_Your_Own_Bootloader)
+* [Kernel](https://os.phil-opp.com/multiboot-kernel/) (multiboot)
+

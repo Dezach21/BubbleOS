@@ -1,13 +1,15 @@
 # BubbleOS
 
 *January 19, 2024*
-
-This is a project to build an operating system.
-
+___
+This is a project to build a simple operating system.
+___
 ## TODOs
 
-* [ ] Plan
-  * [ ] Bootloader
-  * [ ] Kernel
-* [ ] Start
-* [ ] ...
+* [ ] Bootloader
+  * Bring the kernel into memory
+  * Give information to the kernel
+  * Initiate an environment for the kernel
+  * Transfer control to the kernel
+
+* [ ] Kernel

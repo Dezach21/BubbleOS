@@ -13,3 +13,19 @@ ___
   * Transfer control to the kernel
 
 * [ ] Kernel
+
+
+
+
+
+
+
+
+
+
+## Changelog
+2024-01-19 | va.0.0  
+Started project.
+
+2024-01-20 | va.1.0  
+Created first working image file: it prints "Welcome to BubbleOS!".

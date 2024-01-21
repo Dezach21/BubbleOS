@@ -1,8 +1,13 @@
 ; Bootloader that prints "Welcome to BubbleOS."
 org 0x7c00 ; Offset to absolute address calculations. This is required since the BIOS saves this code at memory location 0x7c00
+BITS 16
 
+
+section .data
 welcome_string: db 'Welcome to BubbleOS!', 0 ; Declare a null-terminating string
 
+
+section .text
 mov si, welcome_string
 call print_string ; call == jump + push address to stack
 

@@ -4,10 +4,6 @@ org 0x7c00 ; Offset to absolute address calculations. This is required since the
 mov si, welcome_string
 call print_string ; call == jump + push address to stack
 
-mov ah, 0x0e
-mov al, 'C'
-int 0x10
-
 jmp $ ; Jump to current address (infinite jump)
 
 print_string:

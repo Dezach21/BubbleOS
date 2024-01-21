@@ -3,6 +3,7 @@ org 0x7c00 ; Offset to absolute address calculations. This is required since the
 
 welcome_string: db 'Welcome to BubbleOS!', 0 ; Declare a null-terminating string
 
+mov si, welcome_string
 call print_string ; call == jump + push address to stack
 
 do_nothing_forever:
